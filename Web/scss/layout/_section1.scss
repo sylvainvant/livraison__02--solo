@@ -7,6 +7,8 @@
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(5, 1fr);
 
+  border-top: inset  #353535 2px;
+
   border-bottom: outset #353535 2px;
 
   //margin-top: -55%;
@@ -15,6 +17,8 @@
 }
 
 .artcile__n1 {
+
+
 
   background-color: white;
   grid-area: 1 / 1 / 2 / 3;

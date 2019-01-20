@@ -13,49 +13,125 @@
   <link rel=icon href="./Web/media/favicon.png" sizes="256x256" type="image/png">
 </head>
 <body>
+
   <!--header-->
   <header class="header">
+
     <!-- logo -->
     <img src="./Web/media/logo.png" alt="logo photo studio" class="logo__img">
-    <!-- titre h1 -->
+
+    <!--titre -->
     <h1 class="header__titre">Photo Studio</h1>
 
-   <!-- search bar -->
+    <!-- search bar -->
+    <div class="search">
+      <input type="text" class="searchTerm" placeholder="Que cherchez-vous?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <!-- /search bar -->
 
-   <div class="search">
-    <input type="text" class="searchTerm" placeholder="Que cherchez-vous?">
-    <button type="submit" class="searchButton">
-      <i class="fa fa-search"></i>
-    </button>
-  </div>
-  <!-- /search bar -->
-  <!--menu-->
-<nav class="menu">
-  <ul class="menu__links">
-    <li><a href="index.html" class="menu__accueil">Accueil</a></li>
-    <li><a href="./App/Code/View/about.html" class="menu__about">About</a></li>
-    <li><a href="./App/Code/View/contact.html" class="menu__contact">Contact</a></li>
-    <li><a href="./App/Code/View/prestation.html" class="menu__prestation">Prestation</a></li>
-  </ul>
-</nav>
-<!-- /menu-->
-
-</header>
-<section class="section__contenu1">
-  <article class="artcile__n1">
-      <img class="figure__img" src="./Web/media/bebe/bebe4.jpg" alt="photography bébé">
-  </article>
-
-  <article class="article__n2">
-    <h2>Bonjour</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium numquam omnis</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam obcaecati excepturi tempora. Necessitatibus, est sunt similique dignissimos illum quaerat enim, ea qui cumque delectus voluptate reprehenderit mollitia nam exercitationem!</p>
-    <button class="button-savoir"><a href="#">En Savoir +</a></button>
-  </article>
-</section>
+      <!--menu-->
+    <nav>
+      <ul class="menu__links">
+        <li><a href="index.html" class="menu__accueil">Accueil</a></li>
+        <li><a href="./App/Code/View/about.html" class="menu__about">About</a></li>
+        <li><a href="./App/Code/View/contact.html" class="menu__contact">Contact</a></li>
+        <li><a href="./App/Code/View/prestation.html" class="menu__prestation">Prestation</a></li>
+      </ul>
+    </nav>
+    <!-- /menu-->
+  </header>
 
 
 
-</body>
-</html>
+
+  <section class="section__contenu1">
+    <article class="artcile__n1">
+      <!--<figure class="figure__figure">-->
+        <img class="figure__img" src="./Web/media/bebe/bebe4.jpg" alt="photography bébé">
+        <!--</figure>-->
+      </article>
+
+      <article class="article__n2">
+        <h2>Bonjour</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium numquam omnis</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam obcaecati excepturi tempora. Necessitatibus, est sunt similique dignissimos illum quaerat enim, ea qui cumque delectus voluptate reprehenderit mollitia nam exercitationem!</p>
+        <button class="button-savoir"><a href="#">En Savoir +</a></button>
+      </article>
+    </section>
+
+    <section class="gallery">
+
+      <img class="gallery__img1"><!--src="./Web/media/bebe/bebe.jpeg" alt="Photo">-->
+      <img class="gallery__img2"><!-- src="./Web/media/bebe/bebe2.jpeg" alt="Photo">-->
+      <img class="gallery__img3"><!-- src="./Web/media/bebe/bebe3.jpeg" alt="Photo">-->
+      <img class="gallery__img4"><!-- src="./Web/media/bebe/bebe.jpeg" alt="Photo">-->
+      <img class="gallery__img5"><!-- src="./Web/media/bebe/bebe5.jpeg" alt="Photo">-->
+
+      <img class="gallery__img6"><!-- src="./Web/media/bebe/bebe.jpeg" alt="Photo">-->
+      <img class="gallery__img7"><!-- src="./Web/media/bebe/bebe2.jpeg" alt="Photo">-->
+      <img class="gallery__img8"><!-- src="./Web/media/bebe/bebe3.jpeg" alt="Photo">-->
+      <img class="gallery__img9"><!-- src="./Web/media/bebe/bebe5.jpeg" alt="Photo">-->
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <section class="footer__section--n1">
+        <article class="section__article--n1">
+          <h3>Une question ?</h3>
+          <p>Pour toutes questions ou demande d'informations, merci de nous contacter par télépone, par email ou bien en remplissant le formulaire de Contact.</p>
+        </article>
+      </section>
+      <section class="section__footer--link">
+        <article class="section__article--link">
+
+          <h4>Partenaires</h4>
+          <ul class="alt">
+            <li>
+              <a href="#">Dolor.</a>
+            </li>
+            <li>
+              <a href="#">Etiam.</a>
+            </li>
+            <li>
+              <a href="#">Felis.</a>
+            </li>
+            <li>
+              <a href="#">pulvinar.</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="footer__secction--suiveznous">
+        <article class="footer__article--suiveznous">
+          <h4>Suivez moi sur :</h4>
+          <ul class="plain">
+            <li>
+              <a href="#"><i class="fab fa-twitter fa-3x" title="logo twitter icon" >&nbsp;</i>Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook fa-3x" title="logo Facebook icon">&nbsp;</i>Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube fa-3x" title="logo Youtube icon">&nbsp;</i>Youtube</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-envelope-open fa-3x" title="logo mail icon">&nbsp;</i>Email</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <div class="copyright">
+        &copy; Untitled.
+      </div>
+
+    </footer>
+
+  </body>
+  </html>

@@ -23,7 +23,7 @@ nav {
 
 .menu__links {
 
-    //grid-area: 2 / 1 / 2 / 5;
+  //grid-area: 2 / 1 / 2 / 5;
 
   //background-color: #ddee11;
 
@@ -41,16 +41,16 @@ nav {
 
 }
 
-ul> li >a {
-  color: #000;
+ul > li >a {
   text-decoration: none;
   decoration: none;
+  list-style: none;
 }
-.menu, ul> li> a {
-  background-color: #fff;
+.menu__links > li> a {
+  background-color: inherit;
   font-size: 24px;
 }
-.menu, ul> li> a:hover {
+.menu__links > li> a:hover {
   background-color: #FF7E2A;
   text-decoration: none;
   decoration: none;
